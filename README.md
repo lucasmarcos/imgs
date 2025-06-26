@@ -1,5 +1,7 @@
 # Injeção de SQL com DVWA
 
+Trabalho Prático 2 - Segurança e Auditoria em Sistemas - Ataques a Sistemas Computacionais
+
 ## Objetivo
 
 Simular um ataque de injeção de SQL em uma aplicação web vulnerável e identificar como detectar e mitigar a falha.
