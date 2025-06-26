@@ -31,3 +31,9 @@ senha: `password`
 ## Mitigação da Falha
 
 ## Evidências e Documentação
+
+## Referências
+
+- [Apache HTTP Server](https://wiki.archlinux.org/title/Apache_HTTP_Server)
+- [MariaDB](https://wiki.archlinux.org/title/MariaDB)
+- [PHP](https://wiki.archlinux.org/title/PHP)
