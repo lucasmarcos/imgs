@@ -1,0 +1,2 @@
+client.qcow2.zst filter=lfs diff=lfs merge=lfs -text
+server.qcow2.zst filter=lfs diff=lfs merge=lfs -text
